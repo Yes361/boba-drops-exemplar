@@ -1,0 +1,31 @@
+.gradient {
+    font-size: xx-large;
+    background-clip: text;
+    background-image: linear-gradient(to right, red, yellow);
+    color: transparent;
+}
+
+.student {
+    font-size: xx-large;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    font-size: xx-large;
+    backdrop-filter: blur(40px);
+    border-bottom: 1px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-rows: 2;
+    justify-content: center;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+}
